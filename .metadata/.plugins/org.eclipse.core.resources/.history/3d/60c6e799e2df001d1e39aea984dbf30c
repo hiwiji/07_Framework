@@ -1,0 +1,38 @@
+package edu.kh.comm.common.filter;
+
+import java.io.IOException;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpFilter;
+
+/**
+ * Servlet Filter implementation class initFilter
+ */
+@WebFilter("/initFilter")
+public class initFilter extends HttpFilter implements Filter {
+	
+	// print 구문 사용하다 걸리면 바보
+	// -> Logger 사용
+	// Logger 객체 사용 (해당 클래스에 대한 log를 출력하는 객체)
+       
+  
+	public void init(FilterConfig fConfig) throws ServletException {
+	}
+	
+	public void destroy() {
+		
+	}
+
+
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		
+		chain.doFilter(request, response);
+	}
+
+
+}

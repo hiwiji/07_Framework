@@ -1,0 +1,11 @@
+package edu.kh.comm.member.controller;
+
+
+// POJO 기반 프레임워크 : 외부 라이브러리 상속 X
+
+// class : 객체를 만들기 위한 설계도
+// -> 객체로 생성 되어야지 기능 수행 가능하다.
+
+public class MemberController {
+
+}
