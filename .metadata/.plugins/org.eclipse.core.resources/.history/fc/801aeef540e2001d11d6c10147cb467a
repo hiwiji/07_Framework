@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<!-- SqlSessionTemplate 관련 설정 -->
+	<settings>
+	
+		<!-- insert / update 진행 시 null이 포함되어있는 경우
+			 Mybatis는 기본적으로 error를 발생시키지만
+			 해당 구문이 작성되면 지정된 value로 값을 insert/update 시킨다.
+		-->
+		<setting name="" value="" />
+	
+	</settings>
+	
+
+	<!-- 별칭 작성 부분 -->
+	<typeAliases></typeAliases>
+
+
+	<!-- SQL이 작성되는 mapper 파일 위치를 등록 -->
+	<mappers></mappers>
+
+
+
+</configuration>

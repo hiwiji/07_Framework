@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<!-- SqlSessionTemplate 관련 설정 -->
+	<settings></settings>
+	
+
+	<!-- 별칭 작성 부분 -->
+	<typeAliases></typeAliases>
+
+
+	<!-- SQL이 작성되는 mapper 파일 위치를 등록 -->
+	<mappers></mappers>
+
+</configuration>
