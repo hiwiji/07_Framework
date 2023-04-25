@@ -1,0 +1,14 @@
+package edu.kh.comm.main.controller;
+
+public class MainController {
+	
+	
+	@RequesstMapping("/main")
+	public String mainForward() {
+
+		
+		return "common/main";
+		
+	}
+	
+}
