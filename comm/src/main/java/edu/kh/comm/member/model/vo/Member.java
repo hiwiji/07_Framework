@@ -5,7 +5,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,7 +19,4 @@ public class Member {
 	private String profileImage;
 	private String enrollDate;
 	private String secessionFlag;
-
 }
-
-

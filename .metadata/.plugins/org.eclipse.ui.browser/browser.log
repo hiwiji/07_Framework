@@ -6,3 +6,28 @@
 4월 24, 2023 09:05:58.665 NEW SESSION
 4월 24, 2023 09:05:58.665 [4192:4232:0424/090558.663:ERROR:device_event_log_impl.cc(222)] [09:05:58.663] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
 4월 24, 2023 09:05:58.791 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 27, 2023 13:53:49.239 NEW SESSION
+4월 27, 2023 13:53:49.240 [7304:4440:0427/135349.227:ERROR:device_event_log_impl.cc(222)] [13:53:49.228] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 13:53:49.427 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 14:05:24.301 [5324:10992:0427/140524.299:ERROR:device_event_log_impl.cc(222)] [14:05:24.298] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 14:05:24.442 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 14:25:25.372 [17004:8792:0427/142525.372:ERROR:device_event_log_impl.cc(222)] [14:25:25.371] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 14:25:25.519 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 14:25:36.709 [0427/142536.707:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 27, 2023 14:25:36.710 [0427/142536.709:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+
+4월 27, 2023 14:45:04.487 NEW SESSION
+4월 27, 2023 14:45:04.487 [8428:16828:0427/144504.486:ERROR:device_event_log_impl.cc(222)] [14:45:04.486] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 14:45:04.639 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 14:48:37.805 [9128:17004:0427/144837.805:ERROR:device_event_log_impl.cc(222)] [14:48:37.805] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 14:49:18.152 [5256:8904:0427/144918.151:ERROR:device_event_log_impl.cc(222)] [14:49:18.151] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 14:49:18.306 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 14:50:19.202 [8092:12948:0427/145019.202:ERROR:device_event_log_impl.cc(222)] [14:50:19.202] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 14:50:19.328 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 14:51:01.863 [8300:15672:0427/145101.862:ERROR:device_event_log_impl.cc(222)] [14:51:01.863] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 27, 2023 14:51:02.09 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 27, 2023 14:54:10.321 [0427/145410.320:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 27, 2023 14:54:10.323 [0427/145410.321:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 27, 2023 15:00:21.466 [0427/150021.459:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 27, 2023 15:00:21.467 [0427/150021.466:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
