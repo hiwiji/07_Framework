@@ -111,11 +111,12 @@ public class MemberServiceImpl implements MemberService{
 		
 		// 비밀번호 암호화(bcrypt)
 		String encPw = bcrypt.encode( inputMember.getMemberPw() );
+	
 		
-		// 암호화된 비밀번호로 다시 세팅
+		// 암호화된 비밀번호(encPw)를 담아서 로 다시 세팅
 		inputMember.setMemberPw(encPw);
 
-		// DAO 호출
+		// DAO 호출 
 		int result = dao.signUp(inputMember);
 		
 		// 트랜잭션 제어 처리를 하는 이유

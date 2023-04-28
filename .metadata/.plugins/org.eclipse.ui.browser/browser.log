@@ -31,3 +31,23 @@
 4월 27, 2023 14:54:10.323 [0427/145410.321:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
 4월 27, 2023 15:00:21.466 [0427/150021.459:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
 4월 27, 2023 15:00:21.467 [0427/150021.466:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+
+4월 28, 2023 13:56:21.767 NEW SESSION
+4월 28, 2023 13:56:21.767 [8112:1536:0428/135621.754:ERROR:device_event_log_impl.cc(222)] [13:56:21.754] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 28, 2023 13:56:21.905 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 28, 2023 14:06:34.610 [7204:16452:0428/140634.608:ERROR:device_event_log_impl.cc(222)] [14:06:34.608] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 28, 2023 14:06:34.738 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 28, 2023 14:31:15.851 NEW SESSION
+4월 28, 2023 14:31:15.851 [3408:1292:0428/143115.849:ERROR:device_event_log_impl.cc(222)] [14:31:15.849] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 28, 2023 14:31:16.04 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 28, 2023 14:38:07.267 [5804:18276:0428/143807.266:ERROR:device_event_log_impl.cc(222)] [14:38:07.267] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 28, 2023 14:38:07.391 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 28, 2023 14:39:43.858 [2660:15660:0428/143943.858:ERROR:device_event_log_impl.cc(222)] [14:39:43.857] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 28, 2023 14:39:43.978 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 28, 2023 14:46:30.830 [12152:2704:0428/144630.830:ERROR:device_event_log_impl.cc(222)] [14:46:30.830] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+4월 28, 2023 14:46:30.956 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 28, 2023 15:04:14.61 [0428/150414.061:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 28, 2023 15:04:14.61 [0428/150414.061:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 28, 2023 15:06:24.329 [0428/150624.329:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+4월 28, 2023 15:06:24.335 [0428/150624.329:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)

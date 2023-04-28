@@ -7,11 +7,9 @@
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
-    <fullyQualifiedTypeName name="edu.kh.comm.member.model.service.MemberService"/>
     <fullyQualifiedTypeName name="edu.kh.comm.member.model.dao.MemberDAO"/>
     <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
     <fullyQualifiedTypeName name="org.mybatis.logging.LoggerFactory"/>
     <fullyQualifiedTypeName name="org.slf4j.Logger"/>
@@ -29,4 +27,13 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.SessionAttributes"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="edu.kh.comm.member.model.service.MemberService"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.support.SessionStatus"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+    <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+    <fullyQualifiedTypeName name="edu.kh.comm.common.Util"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

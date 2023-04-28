@@ -76,13 +76,15 @@ public class MemberDAO {
 	 */
 	public int signUp(Member inputMember) {
 		
-		// INSERT , UDPATE, DELETE를 수행하기 위한 메서드가 존재함
+		// INSERT , UDPATE, DELETE를 수행하기 위한 메서드가 존재함(sql Session 안에)
 		
 		// * insert() / update() / delete() 메서드의 반환 값은 int형으로 고정
+		// dml 처리하면 행의 개수로 (1,0)으로 나오니까
 		//  -> mapper에서도 resultType이 항상 _int로 고정 
 		//   -> resultType 생략 가능(묵시적으로 _int)
 		
 		return sqlSession.insert("memberMapper.signUp", inputMember);
+									//"namespace값.name값", 파라미터
 	}
 
 
