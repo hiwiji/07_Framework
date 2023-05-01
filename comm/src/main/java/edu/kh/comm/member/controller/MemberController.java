@@ -45,7 +45,7 @@ import edu.kh.comm.member.model.vo.Member;
 //localhost:8080/comm/member/login
 //localhost:8080/comm/member/signUp
 
-@SessionAttributes({"loginMember" }) // Model에 추가된 값의 key와 어노테이션에 작성된 값이 같으면
+@SessionAttributes({"loginMember"}) // Model에 추가된 값의 key와 어노테이션에 작성된 값이 같으면
 									// 해당 값을 session scope 이동시키는 역할
 public class MemberController {
 	
@@ -53,7 +53,6 @@ public class MemberController {
 	
 	@Autowired // bean으로 등록된 객체 중 타입이 같거나, 상속 관계인 baen을 주입 해주는 역할
 	private MemberService service;   // -> 의존성 주입(DI, Dependency Injection)
-	
 	
 	// Controller : 요청/응답을 제어 역할을 하는 클래스
 
@@ -78,6 +77,7 @@ public class MemberController {
 	 * 
 	 * 
 	 * ** 메서드 레벨에서 GET/POST 방식을 구분하여 매핑할 경우 **
+	 * 
 	 * 
 	 *  @GetMapping("url")  /  @PostMapping("url")  사용하는 것이 일반적
 	 *  (메스드 레벨만 작성 가능!)
@@ -114,7 +114,10 @@ public class MemberController {
 	// - 클라이언트 요청 시 같이 전달된 파라미터를 변수에 저장
 	//  --> 어떤 파라미터를 변수에 저장할지는 "name속성값"을 이용해 지정
 	
-	// 매개변수 지정 시 데이터 타입 파싱을 자유롭게 진행할 수 있음  ex) String -> int 로 변환
+	//
+  
+	 *  String -> int 로 변환
+	 */
 	
 	// [속성]
 	// value : input 태그의 name 속성값  (속성을 하나도 적지 않은 경우의 기본값)
@@ -181,7 +184,6 @@ public class MemberController {
 		
 		// @ModelAttribute 생략 가능 
 		// -> 커맨드 객체 (@ModelAttribute가 생략된 상태에서 파라미터가 필드에 세팅된 객체)
-		
 		logger.info("로그인 기능 수행됨");
 		
 		
@@ -242,7 +244,6 @@ public class MemberController {
 	}
 	
 	
-	
 	// 로그아웃
 	@GetMapping("/logout")
 	public String logout( /*HttpSession session,*/
@@ -294,6 +295,8 @@ public class MemberController {
 		return result;
 		
 	}
+	
+	
 	
 	// 닉네임 중복 검사
 	@ResponseBody  

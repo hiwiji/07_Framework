@@ -69,8 +69,6 @@ public class MyPageController {
 		return "/member/myPage-profile";
 	}
 	
-
-
 	
 	
 	// 회원정보 수정

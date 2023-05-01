@@ -1,7 +1,0 @@
-package edu.kh.comm.member.model.service;
-
-
-/*이 클래스는 memberservice 상속받아서 써야함 */
-public class MemberServiceImpl implements MemberService {
-
-}
