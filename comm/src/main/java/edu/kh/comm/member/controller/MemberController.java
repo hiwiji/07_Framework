@@ -128,7 +128,7 @@ public class MemberController {
 	
 	// 400 – 잘못된 요청(Bad Request) : 파라미터가 존재하지 않아 요청이 잘못됨.
 	
-	//  required = flase일 때 파라미터가 없으면 null
+	//  required = false일 때 파라미터가 없으면 null
 	
 	
 	// defaultValue : required가 false인 상태에서 파라미터가 존재하지 않을 경우의 값을 지정

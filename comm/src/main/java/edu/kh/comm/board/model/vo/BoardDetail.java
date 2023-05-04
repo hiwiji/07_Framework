@@ -23,7 +23,7 @@ public class BoardDetail {
 	private String boardName;
 	
 	private List<BoardImage> imageList;
-	
+	//게시글에 올라가는 이미지 
 	private int boardCode;
 	
 	

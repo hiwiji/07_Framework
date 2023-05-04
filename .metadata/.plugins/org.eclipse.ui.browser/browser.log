@@ -75,3 +75,35 @@
 5월 01, 2023 15:27:36.849 [14040:9380:0501/152736.847:ERROR:device_event_log_impl.cc(222)] [15:27:36.848] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
 5월 01, 2023 16:05:05.26 [0501/160504.991:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
 5월 01, 2023 16:05:05.53 [0501/160504.991:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+
+5월 04, 2023 09:06:44.488 NEW SESSION
+5월 04, 2023 09:06:44.488 [9096:16240:0504/090644.472:ERROR:device_event_log_impl.cc(222)] [09:06:44.472] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 04, 2023 09:06:44.609 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 04, 2023 09:22:21.571 [9096:11896:0504/092221.571:ERROR:cert_verify_proc_builtin.cc(677)] CertVerifyProcBuiltin for log-gateway.zoom.us failed:
+5월 04, 2023 09:22:21.571 ----- Certificate i=0 (CN=*.zoom.us,O=Zoom Video Communications\, Inc.,L=San Jose,ST=California,C=US) -----
+5월 04, 2023 09:22:21.571 ERROR: Time is after notAfter
+5월 04, 2023 09:22:21.571 
+5월 04, 2023 09:22:21.571 
+5월 04, 2023 09:29:35.434 [9096:16240:0504/092935.425:ERROR:device_event_log_impl.cc(222)] [09:29:35.425] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 04, 2023 09:53:35.985 [9096:3636:0504/095335.501:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 10:05:25.372 [0504/100525.369:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 10:05:25.373 [0504/100525.371:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 10:05:50.429 [15684:2508:0504/100550.427:ERROR:device_event_log_impl.cc(222)] [10:05:50.427] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+5월 04, 2023 10:05:50.652 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 04, 2023 10:54:49.207 [15684:11884:0504/105449.205:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 10:55:00.763 [15684:11884:0504/105500.228:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+5월 04, 2023 11:27:59.15 [15684:11884:0504/112759.013:ERROR:mcs_client.cc(750)] Received close command, resetting connection.
+5월 04, 2023 11:28:12.315 [0504/112812.314:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:28:12.316 [0504/112812.315:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:30:39.548 [0504/113039.544:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:30:39.549 [0504/113039.544:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:32:27.424 [0504/113227.423:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:32:27.425 [0504/113227.424:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:35:16.953 [0504/113516.952:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:35:16.954 [0504/113516.953:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:36:36.318 [0504/113636.312:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:36:36.319 [0504/113636.313:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:36:54.227 [0504/113654.226:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:36:54.228 [0504/113654.227:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:38:50.483 [0504/113850.481:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)
+5월 04, 2023 11:38:50.492 [0504/113850.482:ERROR:filesystem_win.cc(130)] GetFileAttributes C:\Users\JE\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c4597a58-0119-4aa9-bb7d-e7ff0fd8b639: 지정된 파일을 찾을 수 없습니다. (0x2)

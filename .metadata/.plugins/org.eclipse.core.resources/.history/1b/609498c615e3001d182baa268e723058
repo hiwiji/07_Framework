@@ -1,7 +1,0 @@
-package edu.kh.comm.main.controller;
-
-public class MainController {
-	
-	public String mainFoward() {
-
-}

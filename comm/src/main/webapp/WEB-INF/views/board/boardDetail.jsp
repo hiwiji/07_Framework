@@ -133,8 +133,9 @@
                         <c:set var="cp" value="${param.cp}" />
                     </c:if>
 
-
-                    <button id="updateBtn" onclick="location.href='write?mode=update&type=${param.type}&cp=${cp}&no=${detail.boardNo}'">수정</button>                       
+					<!--  /board/list/3 -->
+					<!-- /board/write/3/500 -->
+                    <button id="updateBtn" onclick="location.href='../../write/${boardCode}?mode=update&cp=${cp}&no=${detail.boardNo}'">수정</button>                       
                     <button id="deleteBtn">삭제</button>
                 </c:if>
 
