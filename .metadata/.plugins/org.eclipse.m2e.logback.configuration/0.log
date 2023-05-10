@@ -3184,3 +3184,27 @@ java.io.StreamCorruptedException: invalid stream header: 00000000
 2023-05-10 12:33:57,775 [Worker-16: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-05-10 12:33:57,775 [Worker-16: Building Workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of comm
 2023-05-10 12:33:57,775 [Worker-16: Building Workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for comm
+2023-05-10 12:33:57,790 [Worker-16: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:23:14,588 [Worker-31: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for comm
+2023-05-10 14:23:15,009 [Worker-3: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:23:15,011 [Worker-3: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-05-10 14:23:15,045 [Worker-3: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:23:15,047 [Worker-3: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-10 14:23:15,050 [Worker-3: Building Workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of comm
+2023-05-10 14:23:15,050 [Worker-3: Building Workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for comm
+2023-05-10 14:23:15,067 [Worker-3: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:23:36,818 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-10 14:23:37,125 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.kh:comm:1.0.0-BUILD-SNAPSHOT @ C:\workspace\7_Framework\comm\pom.xml.
+2023-05-10 14:23:37,917 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /comm/src/main/java
+2023-05-10 14:23:37,917 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /comm/src/main/resources
+2023-05-10 14:23:37,918 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /comm/src/test/java
+2023-05-10 14:23:37,918 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /comm/src/test/resources
+2023-05-10 14:23:38,273 [Worker-21: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for comm
+2023-05-10 14:23:38,276 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-05-10 14:24:44,857 [Worker-31: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:24:44,859 [Worker-31: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2023-05-10 14:24:44,895 [Worker-31: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-10 14:24:44,895 [Worker-31: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-10 14:24:44,899 [Worker-31: Building Workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of comm
+2023-05-10 14:24:44,899 [Worker-31: Building Workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for comm
+2023-05-10 14:24:44,913 [Worker-31: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
