@@ -133,10 +133,9 @@
                         <c:set var="cp" value="${param.cp}" />
                     </c:if>
 
-					<!--  /board/list/3 -->
-					<!-- /board/write/3/500 -->
+
                     <button id="updateBtn" onclick="location.href='../../write/${boardCode}?mode=update&cp=${cp}&no=${detail.boardNo}'">수정</button>                       
-                    <button id="deleteBtn">삭제</button>
+                    <button id="deleteBtn" onclick="location.href='../../deleteBoard/${boardCode}/${detail.boardNo}'">삭제</button>
                 </c:if>
 
                 <!-- onclick="history.back();"  뒤로가기 

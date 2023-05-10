@@ -1,0 +1,692 @@
+2023-05-09 12:33:06 [INFO] 초기화 필터 생성
+2023-05-09 12:33:08 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 12:33:09 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@1f3114e1, edu.kh.comm.board.model.vo.BoardType@14adc7ad, edu.kh.comm.board.model.vo.BoardType@5e291d8]
+2023-05-09 12:33:09 [INFO] Running Time : 949ms
+2023-05-09 12:33:09 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-05-09 12:33:09 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 12:33:09 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 12:33:09 [INFO] Running Time : 7ms
+2023-05-09 12:33:09 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 12:33:17 [INFO] 로그인 기능 수행됨
+2023-05-09 12:33:17 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=asd123, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 12:33:17 [DEBUG] asd123 / $2a$10$MuFcPLsLmFzx0W/hbSYS2eZuv6xFtOJ3nTYazv.Bq1qKGTjpfgoo2
+2023-05-09 12:33:17 [INFO] Return Value : null
+2023-05-09 12:33:17 [INFO] Running Time : 155ms
+2023-05-09 12:33:17 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-05-09 12:33:18 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 12:33:18 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 12:33:18 [INFO] Running Time : 3ms
+2023-05-09 12:33:18 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 12:33:21 [INFO] 로그인 기능 수행됨
+2023-05-09 12:33:21 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=pass01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 12:33:21 [DEBUG] pass01! / $2a$10$DS.flZtFIpo91y/Ly6AFb.swJkLbTEBcAMfEaOYkJukNClcPegx3a
+2023-05-09 12:33:21 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=01011111111, memberAddress=02830,,서울 성북구 아리랑로 3,,201호, profileImage=null, enrollDate=2023-04-26 13:51:26, secessionFlag=null)
+2023-05-09 12:33:21 [INFO] Running Time : 114ms
+2023-05-09 12:33:21 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-05-09 12:33:21 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 12:33:21 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 12:33:21 [INFO] Running Time : 4ms
+2023-05-09 12:33:21 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 12:33:23 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 12:33:23 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@7002cc05, edu.kh.comm.board.model.vo.Board@744d5c5, edu.kh.comm.board.model.vo.Board@44b64134, edu.kh.comm.board.model.vo.Board@6a12e50c, edu.kh.comm.board.model.vo.Board@c967eaf, edu.kh.comm.board.model.vo.Board@2ddd6805, edu.kh.comm.board.model.vo.Board@5b14236b, edu.kh.comm.board.model.vo.Board@26538780, edu.kh.comm.board.model.vo.Board@198ff6e3, edu.kh.comm.board.model.vo.Board@5f542897]}
+2023-05-09 12:33:23 [INFO] Running Time : 58ms
+2023-05-09 12:33:23 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------------
+
+2023-05-09 12:33:23 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 12:33:23 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@26bac861
+2023-05-09 12:33:23 [INFO] Running Time : 21ms
+2023-05-09 12:33:23 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 12:33:23 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 12:33:23 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+### The error may exist in /mappers/reply-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT LEVEL,  R.* FROM       (SELECT REPLY_NO, REPLY_CONTENT,           TO_CHAR(CREATE_DT, 'YYYY"년" MM"월" DD"일" HH24"시" MI"분" SS"초"') CREATE_DT,           BOARD_NO, MEMBER_NO, MEMBER_NICK, PROFILE_IMG, PARENT_REPLY_NO, REPLY_ST       FROM REPLY_S       JOIN MEMBER_S USING(MEMBER_NO)       WHERE BOARD_NO = ?) R      WHERE REPLY_ST = 'N'   START WITH PARENT_REPLY_NO IS NULL   CONNECT BY PRIOR REPLY_NO = PARENT_REPLY_NO   ORDER SIBLINGS BY REPLY_NO
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+2023-05-09 12:33:23 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 12:33:25 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 12:33:25 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@6d72207f, edu.kh.comm.board.model.vo.Board@57268571, edu.kh.comm.board.model.vo.Board@76955c1, edu.kh.comm.board.model.vo.Board@19669600, edu.kh.comm.board.model.vo.Board@656b2c8b, edu.kh.comm.board.model.vo.Board@685305a, edu.kh.comm.board.model.vo.Board@4b8faa16, edu.kh.comm.board.model.vo.Board@66f4f3f1, edu.kh.comm.board.model.vo.Board@5a4784d0, edu.kh.comm.board.model.vo.Board@756f7822]}
+2023-05-09 12:33:25 [INFO] Running Time : 7ms
+2023-05-09 12:33:25 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------------
+
+2023-05-09 12:41:06 [INFO] 초기화 필터 생성
+2023-05-09 12:41:07 [INFO] 후처리 수행
+2023-05-09 12:41:07 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:07 [INFO] 후처리 수행
+2023-05-09 12:41:07 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:14 [INFO] 로그인 기능 수행됨
+2023-05-09 12:41:14 [DEBUG] pass01! / $2a$10$blc6P/J6Oax4rABQ2aLTmuc53k7ABaFi5BYgbb/71./Oach3VNFIO
+2023-05-09 12:41:14 [INFO] 후처리 수행
+2023-05-09 12:41:14 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:14 [INFO] 후처리 수행
+2023-05-09 12:41:14 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:14 [INFO] 후처리 수행
+2023-05-09 12:41:14 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:14 [INFO] 후처리 수행
+2023-05-09 12:41:14 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:16 [INFO] 후처리 수행
+2023-05-09 12:41:16 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:16 [INFO] 후처리 수행
+2023-05-09 12:41:16 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:17 [INFO] 후처리 수행
+2023-05-09 12:41:17 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:19 [INFO] 후처리 수행
+2023-05-09 12:41:19 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:19 [INFO] 후처리 수행
+2023-05-09 12:41:19 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:41:19 [INFO] 후처리 수행
+2023-05-09 12:41:19 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:44:52 [INFO] 후처리 수행
+2023-05-09 12:44:52 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:44:52 [INFO] 후처리 수행
+2023-05-09 12:44:52 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:44:52 [INFO] 후처리 수행
+2023-05-09 12:44:52 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:44:55 [INFO] 후처리 수행
+2023-05-09 12:44:55 [INFO] View단 처리 완료 후 수행
+2023-05-09 12:44:55 [INFO] 후처리 수행
+2023-05-09 12:44:55 [INFO] View단 처리 완료 후 수행
+2023-05-09 13:41:27 [INFO] 초기화 필터 생성
+2023-05-09 13:41:29 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 13:41:30 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@6faf5b35, edu.kh.comm.board.model.vo.BoardType@44298f8c, edu.kh.comm.board.model.vo.BoardType@18b2ff96]
+2023-05-09 13:41:30 [INFO] Running Time : 925ms
+2023-05-09 13:41:30 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-05-09 13:41:30 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 13:41:30 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 13:41:30 [INFO] Running Time : 6ms
+2023-05-09 13:41:30 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 13:41:33 [INFO] 로그인 기능 수행됨
+2023-05-09 13:41:33 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=PASS01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 13:41:33 [DEBUG] PASS01! / $2a$10$omtCEf8dH7zrXHqBuQtUAuIu1vapUNIxG7IQ99mQH8EjsWcXRGgsO
+2023-05-09 13:41:33 [INFO] Return Value : null
+2023-05-09 13:41:33 [INFO] Running Time : 159ms
+2023-05-09 13:41:33 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-05-09 13:41:34 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 13:41:34 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 13:41:34 [INFO] Running Time : 2ms
+2023-05-09 13:41:34 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 13:41:37 [INFO] 로그인 기능 수행됨
+2023-05-09 13:41:37 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=pass01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 13:41:37 [DEBUG] pass01! / $2a$10$TdYwLbD5Sk7bxiJDXPGrGu3XI8IPbnY02qVGXTc7/x4oLtDoDkodG
+2023-05-09 13:41:37 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=01011111111, memberAddress=02830,,서울 성북구 아리랑로 3,,201호, profileImage=null, enrollDate=2023-04-26 13:51:26, secessionFlag=null)
+2023-05-09 13:41:37 [INFO] Running Time : 114ms
+2023-05-09 13:41:37 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-05-09 13:41:37 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:41:37 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 13:41:37 [INFO] Running Time : 3ms
+2023-05-09 13:41:37 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 13:41:38 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:41:38 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@37e5fbcc, edu.kh.comm.board.model.vo.Board@1b5f0271, edu.kh.comm.board.model.vo.Board@7140da6f, edu.kh.comm.board.model.vo.Board@8cb03e7, edu.kh.comm.board.model.vo.Board@10e8a2a9, edu.kh.comm.board.model.vo.Board@73c7664f, edu.kh.comm.board.model.vo.Board@4a359fa, edu.kh.comm.board.model.vo.Board@5427a6b2, edu.kh.comm.board.model.vo.Board@18fab75, edu.kh.comm.board.model.vo.Board@49325015]}
+2023-05-09 13:41:38 [INFO] Running Time : 60ms
+2023-05-09 13:41:38 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------------
+
+2023-05-09 13:41:39 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:41:39 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@78ce53b8
+2023-05-09 13:41:39 [INFO] Running Time : 10ms
+2023-05-09 13:41:39 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 13:41:39 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:41:39 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=5, replyContent=부모2, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 13:41:39 [INFO] Running Time : 15ms
+2023-05-09 13:41:39 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 13:42:01 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:42:01 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@69e5da5e
+2023-05-09 13:42:01 [INFO] Running Time : 5ms
+2023-05-09 13:42:01 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 13:42:01 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:42:01 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=5, replyContent=부모2, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 13:42:01 [INFO] Running Time : 6ms
+2023-05-09 13:42:01 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 13:42:02 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:42:02 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@32eb3889
+2023-05-09 13:42:02 [INFO] Running Time : 5ms
+2023-05-09 13:42:02 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 13:42:02 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:42:02 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=5, replyContent=부모2, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 13:42:02 [INFO] Running Time : 7ms
+2023-05-09 13:42:02 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 13:42:03 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:42:03 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@5c0091e6
+2023-05-09 13:42:03 [INFO] Running Time : 7ms
+2023-05-09 13:42:03 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 13:42:03 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 13:42:03 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=5, replyContent=부모2, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 13:42:03 [INFO] Running Time : 7ms
+2023-05-09 13:42:03 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:44:37 [INFO] 초기화 필터 생성
+2023-05-09 16:44:39 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:44:40 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@4a62d377, edu.kh.comm.board.model.vo.BoardType@59bc78d7, edu.kh.comm.board.model.vo.BoardType@128c7df]
+2023-05-09 16:44:40 [INFO] Running Time : 821ms
+2023-05-09 16:44:40 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-05-09 16:44:40 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:44:40 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 16:44:40 [INFO] Running Time : 7ms
+2023-05-09 16:44:40 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 16:44:43 [INFO] 로그인 기능 수행됨
+2023-05-09 16:44:43 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=pass01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:44:43 [DEBUG] pass01! / $2a$10$/bvc3Lltj2/lJeJVibw0MeDFZeS5Y3.x2BuPa4wj2Hij1KoxsoN0W
+2023-05-09 16:44:43 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=01011111111, memberAddress=02830,,서울 성북구 아리랑로 3,,201호, profileImage=null, enrollDate=2023-04-26 13:51:26, secessionFlag=null)
+2023-05-09 16:44:43 [INFO] Running Time : 158ms
+2023-05-09 16:44:43 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-05-09 16:44:43 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:44:43 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 16:44:43 [INFO] Running Time : 4ms
+2023-05-09 16:44:43 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 16:44:44 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:44:44 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@1f72971c, edu.kh.comm.board.model.vo.Board@23fdeb1b, edu.kh.comm.board.model.vo.Board@6054de01, edu.kh.comm.board.model.vo.Board@f5b5bd5, edu.kh.comm.board.model.vo.Board@41ae755, edu.kh.comm.board.model.vo.Board@48f361fe, edu.kh.comm.board.model.vo.Board@e110a37, edu.kh.comm.board.model.vo.Board@5b416dd3, edu.kh.comm.board.model.vo.Board@83209a1, edu.kh.comm.board.model.vo.Board@5b9d65c8]}
+2023-05-09 16:44:44 [INFO] Running Time : 76ms
+2023-05-09 16:44:44 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------------
+
+2023-05-09 16:44:45 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:44:45 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@6dfaab48
+2023-05-09 16:44:45 [INFO] Running Time : 21ms
+2023-05-09 16:44:45 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:44:45 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:44:45 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=5, replyContent=부모2, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:44:45 [INFO] Running Time : 14ms
+2023-05-09 16:44:45 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:44:54 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - deleteReply
+Parameter : [5]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:44:54 [INFO] Return Value : 1
+2023-05-09 16:44:54 [INFO] Running Time : 12ms
+2023-05-09 16:44:54 [INFO] End : ReplyServiceImpl - deleteReply
+-------------------------------------------------------------
+
+2023-05-09 16:44:54 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:44:54 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:44:54 [INFO] Running Time : 10ms
+2023-05-09 16:44:54 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:45:35 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:35 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@67e67f83
+2023-05-09 16:45:35 [INFO] Running Time : 10ms
+2023-05-09 16:45:35 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:45:35 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:35 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:45:35 [INFO] Running Time : 7ms
+2023-05-09 16:45:35 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:45:37 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:37 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@293a4267
+2023-05-09 16:45:37 [INFO] Running Time : 6ms
+2023-05-09 16:45:37 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:45:37 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:37 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:45:37 [INFO] Running Time : 6ms
+2023-05-09 16:45:37 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:45:41 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:41 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@7dae6f8f
+2023-05-09 16:45:41 [INFO] Running Time : 6ms
+2023-05-09 16:45:41 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:45:41 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:41 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:45:41 [INFO] Running Time : 4ms
+2023-05-09 16:45:41 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:45:42 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:42 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@5a7b73cf
+2023-05-09 16:45:42 [INFO] Running Time : 5ms
+2023-05-09 16:45:42 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:45:42 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:42 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:45:42 [INFO] Running Time : 3ms
+2023-05-09 16:45:42 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:45:47 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:47 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@2857140d
+2023-05-09 16:45:47 [INFO] Running Time : 6ms
+2023-05-09 16:45:47 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:45:47 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:47 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:45:47 [INFO] Running Time : 4ms
+2023-05-09 16:45:47 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:45:49 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:49 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@3d45ee04
+2023-05-09 16:45:49 [INFO] Running Time : 5ms
+2023-05-09 16:45:49 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:45:49 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:45:49 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:45:49 [INFO] Running Time : 5ms
+2023-05-09 16:45:49 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:46:15 [INFO] 초기화 필터 생성
+2023-05-09 16:46:17 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:46:18 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@6afe7e62, edu.kh.comm.board.model.vo.BoardType@782b651b, edu.kh.comm.board.model.vo.BoardType@7104ef1c]
+2023-05-09 16:46:18 [INFO] Running Time : 757ms
+2023-05-09 16:46:18 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-05-09 16:46:18 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:46:18 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 16:46:18 [INFO] Running Time : 3ms
+2023-05-09 16:46:18 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 16:46:27 [INFO] 로그인 기능 수행됨
+2023-05-09 16:46:27 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=pass01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:46:27 [DEBUG] pass01! / $2a$10$rOnPkDm6GIP//s5FH/WtNOLKukja1kcPQ7SbgOmOWG0S7glPeFE7G
+2023-05-09 16:46:27 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=01011111111, memberAddress=02830,,서울 성북구 아리랑로 3,,201호, profileImage=null, enrollDate=2023-04-26 13:51:26, secessionFlag=null)
+2023-05-09 16:46:27 [INFO] Running Time : 118ms
+2023-05-09 16:46:27 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-05-09 16:46:27 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:27 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 16:46:27 [INFO] Running Time : 2ms
+2023-05-09 16:46:27 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 16:46:28 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:28 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@556028fb, edu.kh.comm.board.model.vo.Board@59aceb48, edu.kh.comm.board.model.vo.Board@4c375398, edu.kh.comm.board.model.vo.Board@6c58e4c8, edu.kh.comm.board.model.vo.Board@38ab3e48, edu.kh.comm.board.model.vo.Board@6e374be, edu.kh.comm.board.model.vo.Board@70be4c69, edu.kh.comm.board.model.vo.Board@5b6b8812, edu.kh.comm.board.model.vo.Board@3ad3a449, edu.kh.comm.board.model.vo.Board@27887129]}
+2023-05-09 16:46:28 [INFO] Running Time : 40ms
+2023-05-09 16:46:28 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------------
+
+2023-05-09 16:46:30 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:30 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@545caea6
+2023-05-09 16:46:30 [INFO] Running Time : 14ms
+2023-05-09 16:46:30 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:46:30 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:30 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:46:30 [INFO] Running Time : 10ms
+2023-05-09 16:46:30 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:46:46 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:46 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@c0bc1ba
+2023-05-09 16:46:46 [INFO] Running Time : 9ms
+2023-05-09 16:46:46 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:46:46 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:46 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:46:46 [INFO] Running Time : 7ms
+2023-05-09 16:46:46 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:46:49 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:49 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@569eef22
+2023-05-09 16:46:49 [INFO] Running Time : 7ms
+2023-05-09 16:46:49 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:46:49 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:46:49 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:46:49 [INFO] Running Time : 6ms
+2023-05-09 16:46:49 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:47:01 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:47:01 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@47a4b55
+2023-05-09 16:47:01 [INFO] Running Time : 8ms
+2023-05-09 16:47:01 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:47:01 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:47:01 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:47:01 [INFO] Running Time : 5ms
+2023-05-09 16:47:01 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:48:13 [INFO] 초기화 필터 생성
+2023-05-09 16:48:15 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:48:16 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@367e63c6, edu.kh.comm.board.model.vo.BoardType@3aa18c89, edu.kh.comm.board.model.vo.BoardType@62305026]
+2023-05-09 16:48:16 [INFO] Running Time : 807ms
+2023-05-09 16:48:16 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------------
+
+2023-05-09 16:48:16 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:48:16 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 16:48:16 [INFO] Running Time : 5ms
+2023-05-09 16:48:16 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 16:48:19 [INFO] 로그인 기능 수행됨
+2023-05-09 16:48:19 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=pass01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2023-05-09 16:48:19 [DEBUG] pass01! / $2a$10$3K5IR/WDZ61h/7Nuz85A5.goxXovtKgm28d9H0P9bmLtef6ysMsvu
+2023-05-09 16:48:19 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=01011111111, memberAddress=02830,,서울 성북구 아리랑로 3,,201호, profileImage=null, enrollDate=2023-04-26 13:51:26, secessionFlag=null)
+2023-05-09 16:48:19 [INFO] Running Time : 126ms
+2023-05-09 16:48:19 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------------
+
+2023-05-09 16:48:19 [INFO] -------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:48:19 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=유저이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2023-05-09 16:48:19 [INFO] Running Time : 2ms
+2023-05-09 16:48:19 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------------
+
+2023-05-09 16:48:20 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 3]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:48:20 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=500, limit=10, pageSize=10, maxPage=50, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@e434ecc, edu.kh.comm.board.model.vo.Board@7881ef08, edu.kh.comm.board.model.vo.Board@19a58013, edu.kh.comm.board.model.vo.Board@1b2e2271, edu.kh.comm.board.model.vo.Board@f0f3af6, edu.kh.comm.board.model.vo.Board@78016db0, edu.kh.comm.board.model.vo.Board@4d91cfbb, edu.kh.comm.board.model.vo.Board@27c641d2, edu.kh.comm.board.model.vo.Board@51680756, edu.kh.comm.board.model.vo.Board@22f79c26]}
+2023-05-09 16:48:20 [INFO] Running Time : 43ms
+2023-05-09 16:48:20 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------------
+
+2023-05-09 16:48:20 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:48:20 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@3f638954
+2023-05-09 16:48:20 [INFO] Running Time : 14ms
+2023-05-09 16:48:20 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:48:20 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:48:20 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:48:20 [INFO] Running Time : 9ms
+2023-05-09 16:48:20 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+
+2023-05-09 16:48:28 [INFO] -------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardDetail
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:48:28 [INFO] Return Value : edu.kh.comm.board.model.vo.BoardDetail@2a9203ce
+2023-05-09 16:48:28 [INFO] Running Time : 6ms
+2023-05-09 16:48:28 [INFO] End : BoardServiceImpl - selectBoardDetail
+-------------------------------------------------------------
+
+2023-05-09 16:48:28 [INFO] -------------------------------------------------------------
+Start : ReplyServiceImpl - selectReplyList
+Parameter : [500]
+ip : 0:0:0:0:0:0:0:1 (email : test01@naver.com)
+2023-05-09 16:48:28 [INFO] Return Value : [Reply(replyNo=1, replyContent=부모1, createDate=2023년 05월 09일 12시 37분 30초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=2, replyContent=부모1-자식1, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=3, replyContent=부모1-자식2, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=4, replyContent=부모1-자식3, createDate=2023년 05월 09일 12시 37분 33초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=1), Reply(replyNo=11, replyContent=부모1-자식3-손자1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=12, replyContent=부모1-자식3-손자2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=13, replyContent=부모1-자식3-손자3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=4), Reply(replyNo=8, replyContent=부모2-자식1, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=9, replyContent=부모2-자식2, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=10, replyContent=부모2-자식3, createDate=2023년 05월 09일 12시 37분 37초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=5), Reply(replyNo=6, replyContent=부모3, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0), Reply(replyNo=7, replyContent=부모4, createDate=2023년 05월 09일 12시 37분 35초, boardNo=500, memberNo=1, memberNickname=테스트1, profileImage=null, parentReplyNo=0)]
+2023-05-09 16:48:28 [INFO] Running Time : 7ms
+2023-05-09 16:48:28 [INFO] End : ReplyServiceImpl - selectReplyList
+-------------------------------------------------------------
+

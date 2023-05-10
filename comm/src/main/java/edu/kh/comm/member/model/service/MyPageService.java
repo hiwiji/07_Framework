@@ -13,8 +13,6 @@ public interface MyPageService {
 	 */
 	int updateInfo(Map<String, Object> paramMap);
 
-
-
 	/** 비밀번호 변경 서비스
 	 * @param paramMap
 	 * @return result
@@ -34,4 +32,3 @@ public interface MyPageService {
 	int updateProfile(Map<String, Object> map) throws IOException;
 
 }
-

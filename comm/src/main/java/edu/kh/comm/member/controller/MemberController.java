@@ -1,20 +1,28 @@
 package edu.kh.comm.member.controller;
 
+import java.sql.SQLException;
 import java.util.List;
 
+import javax.servlet.ServletRequest;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
@@ -24,6 +32,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.google.gson.Gson;
 
 import edu.kh.comm.member.model.service.MemberService;
+import edu.kh.comm.member.model.service.MemberServiceImpl;
 import edu.kh.comm.member.model.vo.Member;
 
 // POJO 기반 프레임워크 : 외부 라이브러리 상속 X
@@ -41,18 +50,17 @@ import edu.kh.comm.member.model.vo.Member;
 
 @RequestMapping("/member") // localhost:8080/comm/member 이하의 요청을 처리하는 컨트롤러
 
-//localhost:8080/comm/member
-//localhost:8080/comm/member/login
-//localhost:8080/comm/member/signUp
-
-@SessionAttributes({"loginMember"}) // Model에 추가된 값의 key와 어노테이션에 작성된 값이 같으면
+@SessionAttributes({"loginMember" }) // Model에 추가된 값의 key와 어노테이션에 작성된 값이 같으면
 									// 해당 값을 session scope 이동시키는 역할
 public class MemberController {
+	
+	
 	
 	private Logger logger = LoggerFactory.getLogger(MemberController.class);
 	
 	@Autowired // bean으로 등록된 객체 중 타입이 같거나, 상속 관계인 baen을 주입 해주는 역할
 	private MemberService service;   // -> 의존성 주입(DI, Dependency Injection)
+	
 	
 	// Controller : 요청/응답을 제어 역할을 하는 클래스
 
@@ -77,7 +85,6 @@ public class MemberController {
 	 * 
 	 * 
 	 * ** 메서드 레벨에서 GET/POST 방식을 구분하여 매핑할 경우 **
-	 * 
 	 * 
 	 *  @GetMapping("url")  /  @PostMapping("url")  사용하는 것이 일반적
 	 *  (메스드 레벨만 작성 가능!)
@@ -104,7 +111,7 @@ public class MemberController {
 		
 		
 		return "redirect:/";
-	}
+	}*/
 	
 	
 	// 요청 시 파라미터를 얻어오는 방법 2
@@ -114,10 +121,7 @@ public class MemberController {
 	// - 클라이언트 요청 시 같이 전달된 파라미터를 변수에 저장
 	//  --> 어떤 파라미터를 변수에 저장할지는 "name속성값"을 이용해 지정
 	
-	//
-  
-	 *  String -> int 로 변환
-	 */
+	// 매개변수 지정 시 데이터 타입 파싱을 자유롭게 진행할 수 있음  ex) String -> int 로 변환
 	
 	// [속성]
 	// value : input 태그의 name 속성값  (속성을 하나도 적지 않은 경우의 기본값)
@@ -128,7 +132,7 @@ public class MemberController {
 	
 	// 400 – 잘못된 요청(Bad Request) : 파라미터가 존재하지 않아 요청이 잘못됨.
 	
-	//  required = false일 때 파라미터가 없으면 null
+	//  required = flase일 때 파라미터가 없으면 null
 	
 	
 	// defaultValue : required가 false인 상태에서 파라미터가 존재하지 않을 경우의 값을 지정
@@ -139,8 +143,8 @@ public class MemberController {
 	//    파라미터를 저장할 변수 이름을 동일하게 작성!
 	
 //	@RequestMapping("/login")
-//	public String login( /*@RequestParam("inputEmail")int inputEmail, */ 
-//						/* @RequestParam("inputPw")String inputPw,*/ 
+//	public String login( /*@RequestParam("inputEmail")*/ int inputEmail,
+//						/* @RequestParam("inputPw")*/ String inputPw,
 //						 @RequestParam(value="inputName", required = false, defaultValue = "홍길동" ) String name    ) {                         
 //		
 //		logger.debug("email : " + inputEmail);
@@ -174,16 +178,16 @@ public class MemberController {
 	
 	//@RequestMapping(value = "/login", method = RequestMethod.POST)
 	@PostMapping("/login")
-	public String login( @ModelAttribute Member inputMember, 
-						 Model model,
-						 RedirectAttributes ra,
-						 HttpServletResponse resp, 
-						 HttpServletRequest req,
-						 @RequestParam(value="saveId", required = false) String saveId ) {
+	public String login( @ModelAttribute Member inputMember 
+						, Model model
+						, RedirectAttributes ra
+						, HttpServletResponse resp 
+						, HttpServletRequest req
+						, @RequestParam(value="saveId", required = false) String saveId ) {
 												
-		
 		// @ModelAttribute 생략 가능 
 		// -> 커맨드 객체 (@ModelAttribute가 생략된 상태에서 파라미터가 필드에 세팅된 객체)
+		
 		logger.info("로그인 기능 수행됨");
 		
 		
@@ -244,6 +248,7 @@ public class MemberController {
 	}
 	
 	
+	
 	// 로그아웃
 	@GetMapping("/logout")
 	public String logout( /*HttpSession session,*/
@@ -277,10 +282,7 @@ public class MemberController {
 	// 이메일 중복 검사
 	@ResponseBody  // ajax 응답 시 사용!
 	@GetMapping("/emailDupCheck")
-	
-//  public String emailDupCheck(@RequestParam("memberEmail") String memberEmail) { // 파라미터 key값과 저장하려는 변수 명이 같으면 생략가능!	
 	public int emailDupCheck(String memberEmail) {
-		
 		int result = service.emailDupCheck(memberEmail);
 		
 		// 컨트롤러에서 반환되는 값은 forward 또는 redirect를 위한 경로인 경우가 일반적
@@ -296,8 +298,6 @@ public class MemberController {
 		
 	}
 	
-	
-	
 	// 닉네임 중복 검사
 	@ResponseBody  
 	@GetMapping("/nicknameDupCheck")
@@ -311,14 +311,12 @@ public class MemberController {
 	
 	// 회원 가입
 	@PostMapping("/signUp")
-						// 매개변수  // 앞에 modelAttribute 생략됨 왜? 필드값이랑 name값이랑 같으면 알아서 넣어줘서
-
 	public String signUp( Member inputMember
-						, String[] memberAddress // 배열로 받을 예정 
-						, RedirectAttributes ra  ) { // 잠깐 세션에 올렸다가 리퀘스트 가는거 메세지 담을거여서 필요함) {
+						, String[] memberAddress
+						, RedirectAttributes ra) {
 		
-		// 커맨드 객체(ModelAttribute  를 이용해서 입력된 회원 정보를 잘 받아옴
-		// 단, 같은 name을 가진 주소가 하나의 문자열로 합쳐서 세팅되어있음 -> 잘 들어오는지 궁금하면 debug 찍어보기
+		// 커맨드 객체를 이용해서 입력된 회원 정보를 잘 받아옴
+		// 단, 같은 name을 가진 주소가 하나의 문자열로 합쳐서 세팅되어있음.
 		// -> 도로명 주소에 " , " 기호가 포함되는 경우가 있어 이를 구분자로 사용할 수 없음.
 		
 		
@@ -328,17 +326,15 @@ public class MemberController {
 		inputMember.setMemberAddress(  String.join(",,", memberAddress)  );
 		// String.join("구분자", 배열)
 		// 배열을 하나의 문자열로 합치는 메서드
-		// 값 중간중간에 구분자가 들어가서 하나의 문자열로 합쳐줌.
-		// 만약 [a, b, c]  - join 진행 ->  "a,,b,,c"
+		// 중간에 들어가 구분자를 지정할 수 있다.
+		// [a, b, c]  - join 진행 ->  "a,,b,,c"
 		
 		if( inputMember.getMemberAddress().equals(",,,,") ) { // 주소가 입력되지 않은 경우
 			
 			inputMember.setMemberAddress(null); // null로 변환
 		}
 		
-		
-		
-		// inputMember 가지고 회원 가입 서비스 호출
+		// 회원 가입 서비스 호출
 		int result = service.signUp(inputMember);
 		
 		String message = null;
@@ -350,7 +346,7 @@ public class MemberController {
 			
 		}else { // 실패
 			message = "회원 가입 실패ㅠㅠ";
-			path = "redirect:/member/signUp"; // 회원 가입 페이지로 다시 돌아가기
+			path = "redirect:/member/signUp"; // 회원 가입 페이지
 		}
 		
 		ra.addFlashAttribute("message", message);
@@ -410,16 +406,16 @@ public class MemberController {
 	
 	// 회원 컨트롤러에서 발생하는 모든 예외를 모아서 처리
 	
-	/* @ExceptionHandler(Exception.class)
-	public String exceptionHandler(Exception e, Model model) {
-		e.printStackTrace();
-		
-		model.addAttribute("errorMessage", "서비스 이용 중 문제가 발생했습니다.");
-		model.addAttribute("e", e);
-		
-		return "common/error";
-	}
-	 */
+//	@ExceptionHandler(Exception.class)
+//	public String exceptionHandler(Exception e, Model model) {
+//		e.printStackTrace();
+//		
+//		model.addAttribute("errorMessage", "서비스 이용 중 문제가 발생했습니다.");
+//		model.addAttribute("e", e);
+//		
+//		return "common/error";
+//	}
+	
 	
 }
 

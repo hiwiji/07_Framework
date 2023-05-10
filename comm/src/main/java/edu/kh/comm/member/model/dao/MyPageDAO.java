@@ -12,15 +12,16 @@ public class MyPageDAO {
 	@Autowired
 	private SqlSessionTemplate sqlSession;
 	
+
 	/** 회원 정보 수정 DAO
 	 * @param paramMap
 	 * @return result
 	 */
 	public int updateInfo(Map<String, Object> paramMap) {
 		
-		return sqlSession.update("myPageMapper.updateInfo", paramMap);	
+		return sqlSession.update("myPageMapper.updateInfo", paramMap);
 	}
-	
+
 
 	/** 현재 로그인한 회원의 암호화된 비밀번호 조회 DAO
 	 * @param memberNo
@@ -31,7 +32,7 @@ public class MyPageDAO {
 		return sqlSession.selectOne("myPageMapper.selectEncPw", memberNo);
 	}
 
-	
+
 	/** 비밀번호 변경 DAO
 	 * @param paramMap
 	 * @return result
@@ -41,7 +42,6 @@ public class MyPageDAO {
 		return sqlSession.update("myPageMapper.changePw", paramMap);
 	}
 
-	
 
 	/** 회원 탈퇴 DAO
 	 * @param memberNo
@@ -53,23 +53,28 @@ public class MyPageDAO {
 	}
 
 
-
-
 	/** 프로필 이미지 수정
 	 * @param map
 	 * @return result
 	 */
 	public int updateProfile(Map<String, Object> map) {
-	
+		
 		return sqlSession.update("myPageMapper.updateProfile", map);
 	}
-
-
-
 	
-
-
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

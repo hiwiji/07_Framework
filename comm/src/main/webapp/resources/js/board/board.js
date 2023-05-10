@@ -180,4 +180,3 @@ function searchValidate(){
 
     return true;
 }
-

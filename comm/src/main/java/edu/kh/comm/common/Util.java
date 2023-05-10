@@ -49,9 +49,9 @@ public class Util {
 	   // 개행문자 해제
 	   public static String newLineClear(String content) {
 	      return content.replaceAll("<br>", "\n");
-		   }
-		   
-		 		   
-		   
+	   }
+	   
+	   
+	   
+	   
 }
-

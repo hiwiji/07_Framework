@@ -1,14 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 
-
 <!-- map에 저장된 값을 각각 변수에 저장 -->
 <c:forEach var="boardType" items="${boardTypeList}">
-	<c:if test="${boardCode  == boardType.boardCode}">
-		<c:set var="boardName" value="${boardType.boardName}" />
-	</c:if>
+    <c:if test="${boardCode == boardType.boardCode}">
+        <c:set var="boardName" value="${boardType.boardName}" />
+    </c:if>
 </c:forEach>
-
 
 <!--<c:set var="boardName" value="${map.boardName}" /> -->
 <c:set var="pagination" value="${map.pagination}" />
@@ -81,9 +79,8 @@
                                             <c:if test="${!empty board.thumbnail}">
                                                 <img class="list-thumbnail" src="${contextPath}${board.thumbnail}">
                                             </c:if>  
-
-                                            <!-- <a href="detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL}">${board.boardTitle}</a> -->
-                                            <a href="../detail/${boardCode}/${board.boardNo}?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                         
+										<!-- <a href="detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL}">${board.boardTitle}</a>  -->
+                                             <a href="../detail/${boardCode}/${board.boardNo}?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>                       
                                         </td>
                                         <td>${board.memberNickname}</td>
                                         <td>${board.createDate}</td>
@@ -101,7 +98,7 @@
             <div class="btn-area">
 
                 <c:if test="${!empty loginMember}">
-                    <!-- /community/board/write/3?mode=insert&cp=1 -->
+                    <!-- /comm/board/write/3?mode=insert&cp=1 -->
                     <!-- /comm/board/list/3 -->
                     <button id="insertBtn" onclick="location.href='../write/${boardCode}?mode=insert&cp=${pagination.currentPage}'">글쓰기</button>                     
                 </c:if>

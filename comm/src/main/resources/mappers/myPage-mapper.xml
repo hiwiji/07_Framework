@@ -2,28 +2,25 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="myPageMapper">
 
-	<!-- 파라미터 타입이 map인 경우 
+	<!-- 파라미터 타입이 map인 경우
 	
 		1) parameterType="java.util.Map"
 		
 		2) parameterType="map" (별칭)
-		
-		3) 생략 (TypeHandler가 알아서 지정해줌)
-		
-	-->
 	
-	 
+		3) 생략 (TypeHandler가 알아서 지정해줌)
+	
+	 -->
+	
+	
 	<!-- 회원 정보 수정 -->
-	<update id="updateInfo" > <!-- parameterType="member"  생략가능 -->
-	<!-- Map으로 받은경우 Map에 있는 키값 그대로 적어준다  -->
-		UPDATE MEMBER_S SET 
-		MEMBER_NICK = #{updateNickname}, 
-		MEMBER_TEL = #{updateTel}, 
+	<update id="updateInfo">
+		UPDATE MEMBER_S SET
+		MEMBER_NICK = #{updateNickname},
+		MEMBER_TEL = #{updateTel},
 		MEMBER_ADDR = #{memberAddress}
 		WHERE MEMBER_NO = ${memberNo}
-		<!-- memberNo는 $로 해줘야함. 왜? 홑따옴표 안붙여서 오니까 -->
 	</update>
-  
 	
 	
 	<!-- 현재 로그인한 회원의 암호화된 비밀번호 조회 -->
@@ -31,19 +28,17 @@
 		SELECT MEMBER_PW FROM MEMBER_S
 		WHERE MEMBER_NO = ${memberNo}
 	</select>
-	
-	
-	
+
+
 	<!-- 비밀번호 변경 -->
 	<update id="changePw">
 		UPDATE MEMBER_S SET
 		MEMBER_PW = #{newPw}
 		WHERE MEMBER_NO = ${memberNo}
 	</update>
-	
-	
-	
-	<!-- 회원 탈퇴  -->
+
+
+	<!-- 회원 탈퇴 -->
 	<update id="secession">
 		UPDATE MEMBER_S SET
 		SECESSION_FL = 'Y'
@@ -52,12 +47,12 @@
 	
 	
 	<!-- 프로필 이미지 수정 -->
-	<update id ="updateProfile">
+	<update id="updateProfile">
 		UPDATE MEMBER_S SET
 		PROFILE_IMG = #{profileImage}
 		WHERE MEMBER_NO = ${memberNo}
 	</update>
-	
-	
-	
+
+
+
 </mapper>

@@ -53,7 +53,7 @@
    
    
   
-  <!-- select 태그 속성
+  <!-- 1. select 태그 속성
   	1) resultType : 조회 결과가 1행 1열인 경우에만 작성
   					조회된 데이터의 Java 자료형을 Mybatis 별칭 형태로 작성
   					
@@ -130,8 +130,6 @@
    		  
    		  
    		 resultMap="member_rm"   ->  조회 결과를 member_rm을 이용하여 비교하여 VO에 세팅
-   		 
-   		 mapper 파일 최상단에 작성!
    	-->
   	<select id="login"  parameterType="member"  resultMap="member_rm"  >
  		SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK ,MEMBER_TEL,
@@ -161,7 +159,6 @@
   	
   	<!-- 
   		 * parameterType 생략 * 
-  		
   			-> 선택 사항이기 때문에 생략 가능
   	 -->
   
@@ -169,7 +166,7 @@
   	<insert id="signUp" parameterType="member">
   		INSERT INTO MEMBER_S VALUES(
   			SEQ_MEMBER_NO_S.NEXTVAL,
-  			#{memberEmail},  
+  			#{memberEmail},
   			#{memberPw},
   			#{memberNickname},
   			#{memberTel},
