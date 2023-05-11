@@ -167,6 +167,16 @@ public class BoardDAO {
 		return sqlSession.update("boardMapper.deleteBoard", boardNo);
 	}
 
+	
+	
+	/** BOARD_IMG 이미지 목록조회 DAO
+	 * @return
+	 */
+	public List<String> selectDBList() {
+		
+		return sqlSession.selectList("boardMapper.selectDBList");
+	}
+
 
 	
 }
