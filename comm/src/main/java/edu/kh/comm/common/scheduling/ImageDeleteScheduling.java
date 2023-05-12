@@ -26,8 +26,6 @@ public class ImageDeleteScheduling {
 	
 
 	
-	
-	
 	@Autowired
 	private BoardService service;
 	

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="edu.kh.comm.member.model.dao.MemberDAO"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="edu.kh.comm.member.model.service.MyPageService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
@@ -31,8 +25,6 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="edu.kh.comm.board.model.vo.BoardDetail"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-    <fullyQualifiedTypeName name="edu.kh.comm.member.model.vo.Member"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestHeader"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
@@ -41,15 +33,31 @@
     <fullyQualifiedTypeName name="edu.kh.comm.board.model.service.ReplyService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="edu.kh.comm.common.Util"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.mybatis.logging.LoggerFactory"/>
-    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
-    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
     <fullyQualifiedTypeName name="edu.kh.comm.board.model.service.BoardService"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
     <fullyQualifiedTypeName name="org.springframework.scheduling.annotation.Scheduled"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Pointcut"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.web.context.request.ServletRequestAttributes"/>
+    <fullyQualifiedTypeName name="org.springframework.web.context.request.RequestContextHolder"/>
+    <fullyQualifiedTypeName name="edu.kh.comm.member.model.vo.Member"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.config.Order"/>
+    <fullyQualifiedTypeName name="org.springframework.core.annotation.Order"/>
 </qualifiedTypeNameHistroy>
