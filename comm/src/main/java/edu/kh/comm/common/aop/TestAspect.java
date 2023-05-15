@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-@Component // 러나임시 필요한 코드를 알아서 참여시킬 수 있도록 bean 등록
+@Component // 런타임시 필요한 코드를 알아서 참여시킬 수 있도록 bean 등록
 @Aspect // 공통 관심사(특정 흐름 사이에 끼여서 수행할 코드)가 작성된 클래스임을 명시
 		// -> 해당 어노테이션이 작성된 클래스에는
 		// advice (끼여들어서 수행할 메서드)
@@ -47,7 +47,7 @@ public class TestAspect {
 	}
 	
 	// Pointcut을 작성해놓은 메서드
-	// -> Pointcut의 패턴이 작성되는 부분에 memberPintcut 메서드 이름을 작성하면
+	// -> Pointcut의 패턴이 작성되는 부분에 memberPointcut 메서드 이름을 작성하면
 	// @Pointcut에 작성된 패턴이 적용된다.
 	
 	@Pointcut("execution(* edu.kh.comm.member..*Impl.*(..))")

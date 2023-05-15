@@ -114,3 +114,24 @@
 5월 10, 2023 13:07:25.942 NEW SESSION
 5월 10, 2023 13:07:25.942 [13556:10964:0510/130725.937:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
 5월 10, 2023 13:32:27.271 [13556:10964:0510/133227.270:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+5월 15, 2023 12:02:37.698 NEW SESSION
+5월 15, 2023 12:02:37.698 [10020:1724:0515/120237.039:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 12:07:58.69 [10020:1724:0515/120758.069:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 12:18:01.573 [10020:1724:0515/121801.573:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 12:28:07.214 [10020:3092:0515/122807.213:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 15, 2023 12:28:07.218 [10020:3092:0515/122807.218:ERROR:interface_endpoint_client.cc(696)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 15, 2023 12:49:45.784 [10020:12396:0515/124945.784:ERROR:rankings.cc(775)] Inconsistent LRU.
+5월 15, 2023 12:49:45.784 [10020:12396:0515/124945.784:ERROR:backend_impl.cc(1040)] Critical error found -8
+5월 15, 2023 13:34:07.326 [10020:1724:0515/133407.326:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 13:53:30.51 [10020:1724:0515/135130.412:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 13:59:19.106 [10020:1724:0515/135919.106:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 14:01:43.193 [10020:3092:0515/140143.192:ERROR:interface_endpoint_client.cc(696)] Message 4 rejected by interface blink.mojom.WidgetHost
+5월 15, 2023 14:08:23.656 [10020:1724:0515/140823.656:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -1
+5월 15, 2023 14:26:58.900 [10020:1724:0515/142658.895:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 14:27:00.152 [10020:1724:0515/142700.152:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -331
+5월 15, 2023 14:28:06.343 [10020:1724:0515/142806.336:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 14:30:15.318 [10020:3092:0515/143015.318:ERROR:device_event_log_impl.cc(222)] [14:30:15.329] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 15, 2023 14:34:33.544 [10020:1724:0515/143424.124:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+5월 15, 2023 14:52:54.408 [10020:3092:0515/145254.408:ERROR:interface_endpoint_client.cc(696)] Message 5 rejected by interface blink.mojom.WidgetHost
+5월 15, 2023 15:07:27.552 [10020:1724:0515/150727.552:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2

@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
-
 public class AfterThrowingAspect {
 	private Logger logger = LoggerFactory.getLogger(AfterThrowingAspect.class);
 	
@@ -26,6 +25,5 @@ public class AfterThrowingAspect {
 		logger.error(str);
 		
 	}
-
 
 }

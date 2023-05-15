@@ -24,7 +24,7 @@ public class AfterAspect {
 		String str = "-------------------------------------------------------------\n";
 		
 		//jp.getTarget() : aop가 적용된 객체 (각종 ServiceImpl)	
-		String className = jp.getTarget().getClass().getSimpleName(); // 간단한 클래스명  (패키지명 제외)ㄴ
+		String className = jp.getTarget().getClass().getSimpleName(); // 간단한 클래스명  (패키지명 제외)
 	
 		// jp.getSignature() : 수행되는 메서드 정보
 		String methodName = jp.getSignature().getName();
