@@ -71,7 +71,7 @@ function sendMessage(){
 		// JSON.parse(문자열) : JSON -> JS Object
 		// JSON.stringify(객체) :  JS Object -> JSON
 		console.log(chatMessage);
-		sconsole.log(    JSON.stringify(chatMessage)   );
+		console.log(    JSON.stringify(chatMessage)   );
 
 		// chattingSock(웹소켓 객체)을 이용하여 메세지 보내기
 		// chattingSock.send(값) : 웹소켓 핸들러로 값을 보냄
